@@ -1,24 +1,6 @@
 {
     "name": "sampathkumarskshops/laravel-wallet",
     "description": "Easy to use virtual wallet for your app",
-    "keywords": [
-        "depsimon",
-        "laravel-wallet",
-        "virtual",
-        "currency",
-        "credits",
-        "wallet"
-    ],
-    "homepage": "https://github.com/depsimon/laravel-wallet",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Simon Depelchin",
-            "email": "simon@webartisan.be",
-            "homepage": "https://webartisan.be",
-            "role": "Developer"
-        }
-    ],
     "repositories": [
         {
             "type": "vcs",
@@ -26,7 +8,6 @@
         }
     ],
     "require": {
-        "php": "^7.0",  
-        "depsimon/laravel-wallet": "dev-master"
+        "depsimon/laravel-wallet": "1.0.8"
     }
 }
