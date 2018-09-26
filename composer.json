@@ -26,29 +26,7 @@
         }
     ],
     "require": {
-        "php": "^7.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Depsimon\\Wallet\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Depsimon\\Wallet\\Tests\\": "tests"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Depsimon\\Wallet\\WalletServiceProvider"
-            ],
-            "aliases": {
-                "Wallet": "Depsimon\\Wallet\\WalletFacade"
-            }
-        }
+        "php": "^7.0",  
+        "depsimon/laravel-wallet": "dev-master"
     }
 }
