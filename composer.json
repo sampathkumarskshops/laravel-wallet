@@ -22,7 +22,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/sampathkumarskshops"
+            "url": "https://github.com/sampathkumarskshops/laravel-wallet"
         }
     ],
     "require": {
